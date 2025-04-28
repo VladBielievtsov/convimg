@@ -6,7 +6,7 @@ export default function Header() {
     <header className="h-14">
       <div className="flex justify-end h-full px-4 py-2">
         <Link
-          href="#"
+          href="https://github.com/VladBielievtsov/convimg"
           target="_blank"
           variant={"ghost"}
           size={"icon"}
