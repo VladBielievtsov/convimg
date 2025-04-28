@@ -1,22 +1,5 @@
-<h2 align="center">
-Starter Next.js
-</h2>
+# Convert image
 
-<p align="center">
-<a href="https://starter-nextjs-ecru.vercel.app/">🖥 Preview</a>
-</p>
+Convert images between different formats like PNG, JPG, JPEG, WEBP, AVIF.
 
-## Getting Started
-
-First, run the development server:
-
-```bash
-pnpm dev
-```
-
-## Features
-- Tailwind CSS
-- TypeScript
-- State Management via Zustand
-- Icons lucide
-- Dark Mode
+Go to the App - [convimg.bvlad.com](https://convimg.bvlad.com)
