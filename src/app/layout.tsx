@@ -12,7 +12,7 @@ export default async function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
         <meta name="theme-color" content="#EEEEF5" media="(prefers-color-scheme: light)" />
         <meta name="theme-color" content="#191923" media="(prefers-color-scheme: dark)" />
       </head>
@@ -30,8 +30,8 @@ export default async function RootLayout({
 
 export const metadata: Metadata = {
   title: {
-    template: '%s | Starter Next App',
-    default: 'Starter Next App',
+    template: '%s | Convert image',
+    default: 'Convert image',
   },
-  description: "Starter Next App",
+  description: "Convert images between different formats like PNG, JPG, JPEG, WEBP, AVIF.",
 };

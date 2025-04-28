@@ -8,12 +8,12 @@
 :root {
   --background: #FFFFFF;
   --foreground: #101015;
-  --secondary: #262829;
+  --secondary: #f4f4f5;
   
   --lychee: #EEEEF5;
   --blackberry: #191923;
   --white: #FFFFFF;
-  --black: #101015;
+  --black: #09090a;
 
   --rosewater: #f5e0dc;
   --flamingo: #f2cdcd;
@@ -70,10 +70,39 @@
 :root[class='dark'] {
   --background: #101015;
   --foreground: #FFFFFF;
+  --secondary: #27272a;
 }
 
 body {
   @apply bg-background text-foreground font-sans;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 6px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  background: var(--foreground);
+  cursor: pointer;
+  border-radius: 50%;
+  border: none;
+}
+
+.slider::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+  background: var(--foreground);
+  cursor: pointer;
+  border-radius: 50%;
+  border: none;
 }
 
 @import "./prose.css";
