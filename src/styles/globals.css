@@ -7,7 +7,7 @@
 
 :root {
   --background: #FFFFFF;
-  --foreground: #101015;
+  --foreground: hsl(224, 7%, 4%);
   --secondary: #f4f4f5;
   
   --lychee: #EEEEF5;
@@ -68,7 +68,7 @@
 }
 
 :root[class='dark'] {
-  --background: #101015;
+  --background: hsl(224, 7%, 4%);
   --foreground: #FFFFFF;
   --secondary: #27272a;
 }

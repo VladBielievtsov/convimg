@@ -3,8 +3,8 @@ import ToggleTheme from "./toggle-theme";
 
 export default function Header() {
   return (
-    <header className="h-14">
-      <div className="flex justify-end h-full px-4 py-2">
+    <header className="h-21">
+      <div className="flex justify-end items-center h-full px-6">
         <Link
           href="https://github.com/VladBielievtsov/convimg"
           target="_blank"
