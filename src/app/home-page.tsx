@@ -58,7 +58,7 @@ export default function HomePage() {
   }
 
   return (
-    <main className="px-7 py-10 overflow-x-hidden min-h-[calc(100vh-4rem)]">
+    <main className="px-7 py-10 overflow-x-hidden min-h-[calc(100vh-6rem)]">
       <div className="max-w-article mx-auto">
         <div className="prose max-w-none mb-4">
           <h1>Convert image</h1>
